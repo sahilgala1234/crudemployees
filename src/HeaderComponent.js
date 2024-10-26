@@ -13,8 +13,8 @@ class HeaderComponent extends Component {
         return (
             <div>
                 <header>
-                    <nav className="navbar navbar-expand-md navbar-dark bg-dark">
-                    <div><a className="navbar-brand">Employee Management App</a></div>
+                    <nav className="navbar navbar-expand-md navbar-dark bg-dark" style={{ paddingLeft: "10px"}}>
+                    <div><a className="navbar-brand">Product Management App</a></div>
                     </nav>
                 </header>
             </div>
